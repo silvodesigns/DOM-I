@@ -59,3 +59,11 @@ cta_button.textContent = siteContent["cta"]["button"];
 cta_img.src = siteContent["cta"]["img-src"];
 
 
+let textContent_h4 =  document.querySelectorAll('.main-content .top-content h4'); 
+let textContent_p =  document.querySelectorAll('.main-content .top-content  p'); 
+
+textContent_h4[0].textContent =siteContent["main-content"]["features-h4"];
+textContent_p[0].textContent = siteContent["main-content"]["features-content"]; 
+
+textContent_h4[1].textContent =siteContent["main-content"]["about-h4"];
+textContent_p[1].textContent = siteContent["main-content"]["about-content"]; 
