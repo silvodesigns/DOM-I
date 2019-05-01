@@ -80,3 +80,8 @@ bottomContent_h4[2].textContent = siteContent["main-content"]["vision-h4"];
 bottomContent_p[0].textContent = siteContent["main-content"]["services-content"];
 bottomContent_p[1].textContent = siteContent["main-content"]["product-content"];
 bottomContent_p[2].textContent = siteContent["main-content"]["vision-content"];
+
+let contact_h4 = document.querySelector('.contact h4');
+let contact_p = document.querySelectorAll('.contact p');
+
+contact_h4.textContent = siteContent["contact"]["contact-h4"];
