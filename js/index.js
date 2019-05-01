@@ -49,4 +49,13 @@ navigation.forEach(function(item,index){
   console.log(index);
 
 });
-console.log(navigation);
+
+let cta_h1 =  document.querySelector('.cta h1'); 
+let cta_button =  document.querySelector('.cta button'); 
+let cta_img =  document.querySelector('.cta img'); 
+
+cta_h1.textContent = siteContent["cta"]["h1"];
+cta_button.textContent = siteContent["cta"]["button"];
+cta_img.src = siteContent["cta"]["img-src"];
+
+
