@@ -41,6 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+let nav = document.querySelector("header nav")
 let navi =  document.querySelectorAll("nav a");
 let navigation = Array.from(navi);
 navigation.forEach(function(item,index){
@@ -50,6 +51,17 @@ navigation.forEach(function(item,index){
   console.log(index);
 
 });
+
+//adding new child elements to nav
+let newNav01 = document.createElement("a");
+newNav01.src="#";
+newNav01.textContent = "wow"
+nav.appendChild(newNav01);
+
+let newNav02 = document.createElement("a");
+newNav02.src="#";
+newNav02.textContent ="ohhh"
+nav.prepend(newNav02);
 
 let cta_h1 =  document.querySelector('.cta h1'); 
 let cta_button =  document.querySelector('.cta button'); 
