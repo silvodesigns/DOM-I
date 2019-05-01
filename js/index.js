@@ -89,3 +89,7 @@ contact_h4.textContent = siteContent["contact"]["contact-h4"];
 contact_p[0].textContent = siteContent["contact"]["address"];
 contact_p[1].textContent = siteContent["contact"]["phone"];
 contact_p[2].textContent = siteContent["contact"]["email"];
+
+let footer_p = document.querySelector("footer p");
+
+footer_p.textContent = siteContent["footer"]["copyright"];
