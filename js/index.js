@@ -71,6 +71,12 @@ textContent_h4[1].textContent =siteContent["main-content"]["about-h4"];
 textContent_p[1].textContent = siteContent["main-content"]["about-content"]; 
 
 middleImage.src = siteContent["main-content"]["middle-img-src"];
+
 bottomContent_h4[0].textContent = siteContent["main-content"]["services-h4"];
 bottomContent_h4[1].textContent = siteContent["main-content"]["product-h4"];
 bottomContent_h4[2].textContent = siteContent["main-content"]["vision-h4"];
+
+
+bottomContent_p[0].textContent = siteContent["main-content"]["services-content"];
+bottomContent_p[1].textContent = siteContent["main-content"]["product-content"];
+bottomContent_p[2].textContent = siteContent["main-content"]["vision-content"];
