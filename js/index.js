@@ -46,6 +46,7 @@ let navigation = Array.from(navi);
 navigation.forEach(function(item,index){
 
   item.textContent = siteContent["nav"]["nav-item-"+`${index+1}`];
+  item.style.color = "green";
   console.log(index);
 
 });
@@ -93,3 +94,4 @@ contact_p[2].textContent = siteContent["contact"]["email"];
 let footer_p = document.querySelector("footer p");
 
 footer_p.textContent = siteContent["footer"]["copyright"];
+
