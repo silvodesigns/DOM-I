@@ -85,3 +85,7 @@ let contact_h4 = document.querySelector('.contact h4');
 let contact_p = document.querySelectorAll('.contact p');
 
 contact_h4.textContent = siteContent["contact"]["contact-h4"];
+
+contact_p[0].textContent = siteContent["contact"]["address"];
+contact_p[1].textContent = siteContent["contact"]["phone"];
+contact_p[2].textContent = siteContent["contact"]["email"];
