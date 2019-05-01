@@ -45,7 +45,7 @@ let navi =  document.querySelectorAll("nav a");
 let navigation = Array.from(navi);
 navigation.forEach(function(item,index){
 
-  item.textContent = siteContent["nav"]["nav-item-"+`${index}`];
+  item.textContent = siteContent["nav"]["nav-item-"+`${index+1}`];
   console.log(index);
 
 });
